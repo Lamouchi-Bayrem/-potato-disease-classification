@@ -1,4 +1,5 @@
 matplotlib
 numpy
-tensorflow==2.5.0  # Specific version from notebooks; update if needed
+tensorflow==2.5.0  
 tensorflow-model-optimization
+
