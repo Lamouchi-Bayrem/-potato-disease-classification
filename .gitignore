@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Data and models (large files)
+data/
+models/
+
+# Environments
+.env
+.venv
+env/
+
+# Misc
+.DS_Store
+*.log
