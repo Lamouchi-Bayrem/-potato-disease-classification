@@ -15,7 +15,7 @@ This project classifies potato leaf images into three categories: Early Blight, 
 - Automated dataset download using Kaggle API
 
 ## Setup
-1. Clone the repo: `git clone https://github.com/yourusername/potato-disease-classification.git`
+1. Clone the repo: `git clone https://github.com/Lamouchi-Bayrem/potato-disease-classification.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Set up Kaggle API:
    - Sign up on [Kaggle](https://www.kaggle.com) and generate an API key (`kaggle.json`).
@@ -38,3 +38,4 @@ If download fails, manually download from [Kaggle](https://www.kaggle.com/arjunt
 Dataset credit: Kaggle Plant Village.
 
 Author: Bayrem - Data Science & AI Expert
+
