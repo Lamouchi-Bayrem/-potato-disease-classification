@@ -8,7 +8,7 @@ from model_optimization import compile_model
 from training import train_model
 from evaluation import evaluate_model
 from visualization import plot_training_history, visualize_predictions
-from model_saving import save_model, save_h5_model
+from model_saving import save_model, save_h5_model ,save_onnx_model
 from tflite_conversion import convert_to_tflite, convert_with_quantization
 from qat import train_qat_model  # Optional: Uncomment for QAT
 
@@ -35,6 +35,8 @@ def main():
     
     save_model(model)
     save_h5_model(model)
+    save_onnx_model(model)
+    
     
     convert_to_tflite(model, "../models/model.tflite")
     convert_with_quantization(model, train_ds, "../models/model_quant.tflite")
@@ -45,3 +47,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
