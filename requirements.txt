@@ -3,4 +3,6 @@ numpy
 tensorflow==2.5.0  
 tensorflow-model-optimization
 kaggle
+tftoonnx
+
 
